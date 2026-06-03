@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: user-service
+  description: Handles user operations
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
+  system: ecommerce-system
