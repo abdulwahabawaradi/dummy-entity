@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: user-management-service
+  description: Handles user authentication and profiles
+  tags:
+    - auth
+    - microservice
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/guest
