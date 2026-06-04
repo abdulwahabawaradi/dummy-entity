@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: inventory-service
+  description: Tracks product inventory
+  tags:
+    - python
+    - backend
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: your-org/inventory-service
+    backstage.io/kubernetes-id: inventory-service
+
+spec:
+  type: service
+  lifecycle: production
+  owner: guest

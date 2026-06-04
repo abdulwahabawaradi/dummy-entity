@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: user-management-service
+  description: Handles user authentication and profiles
+  tags:
+    - auth
+    - microservice
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: your-org/user-management-service
+    backstage.io/kubernetes-id: user-management-service
+
+spec:
+  type: service
+  lifecycle: production
+  owner: guest

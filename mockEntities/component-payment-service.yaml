@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: payment-service
+  description: Handles payment processing
+  tags:
+    - nodejs
+    - payments
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: your-org/payment-service
+    backstage.io/kubernetes-id: payment-service
+
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
