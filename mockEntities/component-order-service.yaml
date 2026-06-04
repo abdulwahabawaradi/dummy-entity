@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: order-service
+  description: Manages customer orders
+  tags:
+    - java
+    - ecommerce
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: your-org/order-service
+    backstage.io/kubernetes-id: order-service
+    backstage.io/managed-by-location: url:https://github.com/abdulwahabawaradi/dummy-entity/tree/main/mockEntities
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/guest

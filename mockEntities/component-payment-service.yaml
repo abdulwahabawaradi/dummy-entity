@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-service
+  description: Handles payment processing
+  tags:
+    - nodejs
+    - payments
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: your-org/payment-service
+    backstage.io/kubernetes-id: payment-service
+    backstage.io/managed-by-location: url:https://github.com/abdulwahabawaradi/dummy-entity/tree/main/mockEntities
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/guest
